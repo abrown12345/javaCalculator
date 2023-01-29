@@ -14,7 +14,7 @@ public class javaCalculator {
 		System.out.println("Enter your second number.");
 		number2= input.nextInt();
 		
-		System.out.println("Choose an operator: +, -, *, /, or i for squaring a number");
+		System.out.println("Choose an operator: +, -, *, /, or i for squaring your first entered integer");
 		operator= input.next().charAt(0);
 		
 		switch (operator) {
